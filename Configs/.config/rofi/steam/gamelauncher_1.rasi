@@ -3,7 +3,7 @@ configuration {
     modi:                        "drun";
     show-icons:                  true;
     drun-display-format:         "{name}";
-    font:                        "JetBrainsMono Nerd Font 8";
+    font:                        "Vazirmatn 8";
 }
 
 @theme "~/.config/rofi/theme.rasi"
@@ -86,4 +86,3 @@ element-text {
     background-color:            transparent;
     text-color:                  inherit;
 }
-
