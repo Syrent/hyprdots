@@ -67,7 +67,7 @@
       "2": "\ue745 ", // nf-dev-firefox - browser
       "3": "\uf1ff ", // nf-fa-discord - discord
       "4": "\uf2c6 ", // nf-fa-telegram - telegram
-      "5": "\udb80\udf73 ", // nf-md-minecraft
+      "5": "\udb80\udf73 ", // nf-md-minecraft - minecraft
       "default": " ",
     },
     "active-only": false,
