@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "Vazirmatn";
+    font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
     font-size: 10px;
     min-height: 10px;
@@ -97,6 +97,7 @@ tooltip {
 #backlight,
 #battery,
 #bluetooth,
+#custom-cava,
 #custom-cliphist,
 #clock,
 #custom-cpuinfo,
@@ -110,6 +111,7 @@ tooltip {
 #network,
 #custom-notifications,
 #custom-power,
+#privacy,
 #pulseaudio,
 #custom-spotify,
 #taskbar,
@@ -162,15 +164,44 @@ tooltip {
     margin-left: 9px;
     padding-left: 3px;
 }
-
-#custom-rr_end {
-    border-radius: 0px 7px 7px 0px;
-    margin-right: 9px;
-    padding-right: 3px;
 }
 
-#custom-rl_end {
-    border-radius: 7px 0px 0px 7px;
-    margin-left: 9px;
-    padding-left: 3px;
+#backlight,
+#battery,
+#bluetooth,
+#custom-cava,
+#custom-cliphist,
+#clock,
+#custom-cpuinfo,
+#cpu,
+#custom-gpuinfo,
+#idle_inhibitor,
+#custom-keybindhint,
+#language,
+#memory,
+#mpris,
+#network,
+#custom-notifications,
+#custom-power,
+#privacy,
+#pulseaudio,
+#custom-spotify,
+#taskbar,
+#custom-theme,
+#tray,
+#custom-updates,
+#custom-wallchange,
+#custom-wbar,
+#window,
+#workspaces,
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end {
+    color: @main-fg;
+    background: @main-bg;
+}
+
 }
