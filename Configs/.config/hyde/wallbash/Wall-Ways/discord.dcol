@@ -1,5 +1,5 @@
 * {
-    font-family: 'Vazirmatn' !important;
+    font-family: 'GG Sans', 'Vazirmatn' !important;
 }
 
 *[aria-label="Direct Messages"] a[href="/store"],
