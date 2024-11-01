@@ -78,3 +78,23 @@ if ! pkg_installed flatpak; then
 else
     echo -e "\033[0;33m[SKIP]\033[0m flatpak is already installed..."
 fi
+
+# spicetify
+if pkg_installed spicetify-cli; then
+    echo -e "\033[0;32m[SPICETIFY]\033[0m detected // spicetify-cli"
+    sudo chmod a+wr /opt/spotify
+    sudo chmod a+wr /opt/spotify/Apps -R
+else
+    echo -e "\033[0;33m[WARNING]\033[0m spicetify-cli is not installed..."
+fi
+
+# qmk udev rules
+udev_rules_file="${scrDir}/../Configs/etc/udev/50-qmk.rules"
+udev_rules_path="/etc/udev/rules.d/50-qmk.rules"
+if [ ! -f "$udev_rules_path" ] && [ -f "$udev_rules_file" ]; then
+    echo -e "\033[0;32m[UDEV]\033[0m copying QMK rules to ${udev_rules_path}..."
+    sudo cp "$udev_rules_file" "$udev_rules_path"
+    sudo udevadm control --reload-rules && sudo udevadm trigger
+else
+    echo -e "\033[0;33m[WARNING]\033[0m QMK rules file not found or already exists at destination."
+fi
