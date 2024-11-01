@@ -61,17 +61,12 @@ qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
 zen-browser-bin                                        # browser
-vesktop                                                # communication platform (discord)
-teamspeak3                                             # communication platform (teamspeak v3)
-telegram-desktop                                       # communication platform (telegram)
-kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 vim                                                    # terminal text editor
-nvim                                                   # ide text editor
 zeditor                                                # gui text editor
-jetbrains-toolbox                                      # jetbrains products
 nekoray                                                # gui proxy application
+kitty                                                  # terminal
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh

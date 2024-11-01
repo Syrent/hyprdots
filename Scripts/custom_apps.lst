@@ -20,4 +20,7 @@ spotify                                                # proprietary music strea
 spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Apps
-# neovim                                               # vim based text editor
+neovim                                               # vim based text editor
+vesktop                                                # communication platform (discord)
+teamspeak3                                             # communication platform (teamspeak v3)
+telegram-desktop                                       # communication platform (telegram)
