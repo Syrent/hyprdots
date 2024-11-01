@@ -15,6 +15,7 @@ bluez-utils                                            # bluetooth utility cli
 blueman                                                # bluetooth manager gui
 brightnessctl                                          # screen brightness control
 udiskie                                                # manage removable media
+kanata                                                 # home row mods
 
 # --------------------------------------------------- // Display Manager
 sddm                                                   # display manager for KDE plasma
@@ -59,12 +60,18 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
+zen-browser-bin                                        # browser
+vesktop                                                # communication platform (discord)
+teamspeak3                                             # communication platform (teamspeak v3)
+telegram-desktop                                       # communication platform (telegram)
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 vim                                                    # terminal text editor
-code                                                   # ide text editor
+nvim                                                   # ide text editor
+zeditor                                                # gui text editor
+jetbrains-toolbox                                      # jetbrains products
+nekoray                                                # gui proxy application
 
 # --------------------------------------------------- // Shell
 eza|zsh                                                # file lister for zsh
@@ -73,7 +80,7 @@ zsh-theme-powerlevel10k-git|zsh oh-my-zsh-git          # theme for zsh
 eza|fish                                               # file lister for fish
 starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
-pokemon-colorscripts-git|zsh                           # display pokemon sprites
+proxychains-ng                                         # terminal proxy application
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde
