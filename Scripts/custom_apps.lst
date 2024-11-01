@@ -1,4 +1,6 @@
 # --------------------------------------------------- // System
+htop                                                   # system monitor
+gtop                                                   # htop alternative
 # downgrade                                            # downgrade packages
 # trash-cli-git                                        # cli to manage trash files
 # libinput-gestures                                    # actions touchpad gestures using libinput
@@ -24,3 +26,4 @@ neovim                                               # vim based text editor
 vesktop                                                # communication platform (discord)
 teamspeak3                                             # communication platform (teamspeak v3)
 telegram-desktop                                       # communication platform (telegram)
+jetbrains-toolbox                                      # jetbrains products
